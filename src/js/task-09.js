@@ -3,3 +3,13 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
+
+// Напиши скрипт, який змінює кольори фону елемента <body> через інлайн-стиль по кліку на button.change-color і виводить значення кольору в span.color.
+
+const btnChangeColor = document.querySelector('.change-color');
+console.log(btn);
+
+const colorEl = document.querySelector('.color');
+console.log(btnChangeColor);
+
+

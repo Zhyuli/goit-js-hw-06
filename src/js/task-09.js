@@ -18,3 +18,4 @@ const changeColor = () => {
   colorEl.textContent = body.style.backgroundColor = getRandomHexColor();
 };
 
+btnChangeColor.addEventListener('click', changeColor);

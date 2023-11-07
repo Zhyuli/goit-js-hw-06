@@ -2,6 +2,8 @@
 
 const inputEl = document.getElementById('font-size-control');
 // console.log(inputEl);
+inputElEl.value = '10px';
+
 
 const textEl = document.getElementById('text');
 // console.log(textEl);
